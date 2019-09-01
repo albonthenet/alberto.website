@@ -1,5 +1,5 @@
 # main text of home
-name: Alberto Lopez
+name: Alberto López
 bio: Technology, cybersecurity and other ramblings
 
 # twitter summary info
@@ -8,15 +8,15 @@ description: Alberto's personal page about security and other thoughts
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/me_square.jpg
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: false
-resume-external: true
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://alberto.website
+url: http://alberto.website
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -31,11 +31,12 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  #categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: mytwitter
+twitter: albonthenet
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -45,28 +46,28 @@ linkedin: albertolop
 github: albonthenet
 # gitlab: mygitlab
 # lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+stackoverflow: 3301437/b0rt
 # quora: userquora
 # reddit: username
 #medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+#email: myemail@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    alb:
+        name: Alberto
+        bio: A world-wanderer having fun 
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
-
+        twitter: albonthenet
+##    jamesfoster:
+#        name: James Foster
+#        bio: A Man who develops software with coffee
+#        external-image: false
+#        picture: assets/images/james.jpg
+#        twitter: jamesfoster
+#
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
@@ -77,7 +78,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+#projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -101,6 +102,9 @@ show-author: true
 # do you want some animations?
 animation: true
 
+# Publish posts or collection documents with a future date.
+future: true
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
@@ -108,8 +112,8 @@ plugins:
   - jemoji
   - jekyll-admin
 
-jekyll-mentions:
-    base_url: https://github.com
+#jekyll-mentions:
+#    base_url: https://github.com
 
 compress_html:
     ignore:
